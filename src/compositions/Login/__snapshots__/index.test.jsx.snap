@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing login component Loader shows up if loading is set to false 1`] = `
+"<div style={{...}}>
+  <div className=\\"form-container login\\" style={{...}}>
+    <h1>
+      LogIn
+    </h1>
+    <Component loaded={false} options={{...}} component=\\"div\\" loadedClassName=\\"loadedContent\\" parentClassName=\\"loader\\">
+      <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={true} validateOnBlur={true} isInitialValid={false} enableReinitialize={false}>
+        [function]
+      </Formik>
+    </Component>
+  </div>
+</div>"
+`;
+
+exports[`Testing login component Text shows up when the user is typing 1`] = `
+"<div style={{...}}>
+  <div className=\\"form-container login\\" style={{...}}>
+    <h1>
+      LogIn
+    </h1>
+    <Component loaded={true} options={{...}} component=\\"div\\" loadedClassName=\\"loadedContent\\" parentClassName=\\"loader\\">
+      <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={true} validateOnBlur={true} isInitialValid={false} enableReinitialize={false}>
+        [function]
+      </Formik>
+    </Component>
+  </div>
+</div>"
+`;
+
+exports[`Testing login component renders correctly  1`] = `
+"<div style={{...}}>
+  <div className=\\"form-container login\\" style={{...}}>
+    <h1>
+      LogIn
+    </h1>
+    <Component loaded={true} options={{...}} component=\\"div\\" loadedClassName=\\"loadedContent\\" parentClassName=\\"loader\\">
+      <Formik initialValues={{...}} validationSchema={{...}} onSubmit={[Function: onSubmit]} validateOnChange={true} validateOnBlur={true} isInitialValid={false} enableReinitialize={false}>
+        [function]
+      </Formik>
+    </Component>
+  </div>
+</div>"
+`;
